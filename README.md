@@ -39,16 +39,16 @@ The Dice class represents the dice used in the game. It generates a random numbe
 ### Main
 The Main class contains the main method and is responsible for starting the game. It prompts the user for the number of players and initializes the game board and players. It then runs the game loop until a player reaches the end of the board.
 
-###Ladder
+### Ladder
 The Ladder class represents the ladder that are present on the board. This class is used to define the start and end points of the ladder.
 
-###Snake
+### Snake
 The snake class is used to represent the sankes that are present on the board. Thsi class is used to define the head and the tail of the snakes.
 
-###LadderParameterException
+### LadderParameterException
 This class is used to creata a userdefined exception that will throw a LadderParameterException when the start of the ladder is greater then the end of the same.
 
-###SnakeParameterException
+### SnakeParameterException
 This class is used to create a userdefined exception that will throw a SnakeParameterException when the head of the snake is lower than the tail of the same.
 
 ## Conclusion
